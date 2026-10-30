@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Moh. Akmal Sukma Wardani — Portfolio</title>
+<meta name="description" content="Portfolio Moh. Akmal Sukma Wardani — mahasiswa Sistem Informasi Universitas Alma Ata. UI/UX design, front-end development, dan desain grafis bersertifikat Kemnaker RI." />
+<meta name="author" content="Moh. Akmal Sukma Wardani" />
+<meta name="theme-color" content="#fcfcfc" />
+
+<meta property="og:title" content="Moh. Akmal Sukma Wardani — Portfolio" />
+<meta property="og:description" content="Sistem Informasi · UI/UX Design · Front-End · Graphic Design" />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='24' fill='%23111114'/%3E%3Ctext x='50' y='70' font-family='Segoe UI,Arial' font-size='56' font-weight='700' fill='%23fcfcfc' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E" />
+<noscript><style>
+  .preloader{display:none!important}
+  body{overflow:auto!important}
+  .reveal{opacity:1!important;transform:none!important}
+  .assistant,.to-top{display:none!important}
+</style></noscript>
+</head>
+<body class="is-loading">
+
+<!-- ═══════════ PRELOADER ═══════════ -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader__inner">
+    <div class="preloader__name">Akmal<span>.</span></div>
+    <div class="preloader__label">Portfolio Loading</div>
+    <div class="preloader__bar"><i id="plBar"></i></div>
+    <div class="preloader__pct"><span id="plPct">0</span>%</div>
+  </div>
+</div>
+
+<!-- ═══════════ HEADER ═══════════ -->
+<header class="header" id="header">
+  <div class="shell header__inner">
+    <a class="brand" href="#home" aria-label="Akmal — beranda">Akmal<span>.</span></a>
+
+    <nav class="nav" id="nav" aria-label="Navigasi utama">
+      <a href="#home" class="nav__link">Home</a>
+      <a href="#about" class="nav__link">About</a>
+      <a href="#experience" class="nav__link">Experience</a>
+      <a href="#works" class="nav__link">Projects</a>
+      <a href="#contact" class="nav__link">Contacts</a>
+    </nav>
+
+    <div class="header__right">
+      <a href="assets/cv/CV-Akmal-Sukma-Wardani.pdf" class="btn btn--dark btn--sm header__cv" target="_blank" rel="noopener">
+        Download CV
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 19h14"/></svg>
+      </a>
+      <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ═══════════ HERO ═══════════ -->
+<section class="hero" id="home">
+  <div class="shell hero__grid">
+
+    <div class="hero__copy">
+      <p class="hero__eyebrow reveal">
+        <span class="dot"></span>
+        Sistem Informasi · Universitas Alma Ata
+      </p>
+
+      <h1 class="hero__title reveal" data-delay="60">
+        Hi, I'm <span class="hero__name">Akmal</span>
+      </h1>
+
+      <p class="hero__role reveal" data-delay="120">
+        <span class="hero__role-text" id="roleText">Graphic Designer</span><span class="caret" aria-hidden="true"></span>
+      </p>
+
+      <p class="hero__desc reveal" data-delay="180">
+        Halo! Saya suka merancang antarmuka dan visual yang rapi — dari identitas visual,
+        poster, sampai website. Bagi saya, setiap detail adalah cara untuk menghadirkan
+        sesuatu yang bermanfaat dan enak dipakai.
+      </p>
+
+      <div class="hero__actions reveal" data-delay="240">
+        <a href="#works" class="btn btn--dark">
+          Explore Work
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="assets/cv/CV-Akmal-Sukma-Wardani.pdf" class="btn btn--line" target="_blank" rel="noopener">
+          Download CV
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </a>
+      </div>
+
+      <div class="connect reveal" data-delay="300">
+        <span class="connect__label">Connect</span>
+        <a href="https://www.instagram.com/akmal.skw" class="connect__icon" target="_blank" rel="noopener" aria-label="Instagram @akmal.skw">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://wa.me/6282285718916" class="connect__icon" target="_blank" rel="noopener" aria-label="WhatsApp +62 822-8571-8916">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2A9.9 9.9 0 0 0 2.1 11.9a9.8 9.8 0 0 0 1.35 4.97L2 22l5.26-1.38a9.9 9.9 0 0 0 4.78 1.22h.01A9.9 9.9 0 0 0 22 11.9 9.9 9.9 0 0 0 12.04 2Zm0 18.1h-.01a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.37 8.23 8.23 0 0 1 8.24-8.19 8.2 8.2 0 0 1 8.23 8.24 8.23 8.23 0 0 1-8.23 8.18Zm4.5-6.14c-.25-.13-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.15.16-.29.18-.54.06a6.7 6.7 0 0 1-1.98-1.22 7.42 7.42 0 0 1-1.37-1.79c-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.09-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.41-.56-.42h-.47c-.16 0-.43.06-.65.31-.22.24-.85.83-.85 2.03s.87 2.35.99 2.51c.12.17 1.72 2.62 4.16 3.67.58.25 1.04.4 1.39.51.58.19 1.12.16 1.54.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.1-.22-.16-.47-.28Z"/></svg>
+        </a>
+        <a href="mailto:sukmawardaniakmal@gmail.com" class="connect__icon" aria-label="Email sukmawardaniakmal@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3.2"/><path d="m3.6 7.4 8.4 5.9 8.4-5.9"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__aside">
+      <figure class="portrait reveal" data-delay="140">
+        <div class="portrait__frame">
+          <img src="assets/img/portrait.png" alt="Foto Moh. Akmal Sukma Wardani" width="900" height="970" loading="eager" decoding="async" />
+        </div>
+        <figcaption class="portrait__cap">
+          <span>Moh. Akmal Sukma Wardani</span>
+          <span>Bantul, DIY</span>
+        </figcaption>
+      </figure>
+
+      <div class="stats reveal" data-delay="240">
+        <div class="stat">
+          <b><span class="count" data-count="6">0</span></b>
+          <span>Proyek &amp; karya nyata</span>
+        </div>
+        <div class="stat">
+          <b><span class="count" data-count="10">0</span></b>
+          <span>Unit kompetensi Kemnaker</span>
+        </div>
+        <div class="stat">
+          <b><span class="count" data-count="260">0</span><i>JP</i></b>
+          <span>Jam pelatihan desain grafis</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="shell hero__foot">
+    <a href="#about" class="scroll-cue">
+      <span class="scroll-cue__line"><i></i></span>
+      <span>Scroll to explore</span>
+    </a>
+    <span class="hero__year">Portfolio — 2026</span>
+  </div>
+</section>
+
+<!-- ═══════════ ABOUT ═══════════ -->
+<section class="section" id="about">
+  <div class="shell">
+    <header class="sec-head">
+      <span class="sec-label reveal">Introduction</span>
+      <h2 class="sec-title reveal" data-delay="60">About Me</h2>
+    </header>
+
+    <div class="about">
+      <figure class="about__photo reveal">
+        <img src="assets/img/photo.jpg" alt="Foto Moh. Akmal Sukma Wardani" width="900" height="1125" loading="lazy" decoding="async" />
+      </figure>
+
+      <div class="about__main reveal" data-delay="80">
+        <h3 class="about__h">Who Am I</h3>
+        <p>
+          Saya <strong>Moh. Akmal Sukma Wardani</strong>, mahasiswa Sistem Informasi di
+          <strong>Universitas Alma Ata</strong>. Saya mulai dari desain grafis — belajar tipografi,
+          komposisi, dan identitas visual — lalu membawanya ke dunia digital lewat antarmuka
+          web dan aplikasi.
+        </p>
+
+        <h4 class="about__sub">Personal Details</h4>
+        <dl class="details">
+          <div><dt>Name</dt><dd>Moh. Akmal Sukma Wardani</dd></div>
+          <div><dt>Phone</dt><dd><a href="https://wa.me/6282285718916" target="_blank" rel="noopener">+62 822-8571-8916</a></dd></div>
+          <div><dt>Email</dt><dd><a href="mailto:sukmawardaniakmal@gmail.com">sukmawardaniakmal@gmail.com</a></dd></div>
+          <div><dt>Place of Birth</dt><dd>Sungai Batang, Indragiri Hilir</dd></div>
+          <div><dt>NIM</dt><dd>243100411</dd></div>
+          <div><dt>Education</dt><dd>Universitas Alma Ata</dd></div>
+        </dl>
+      </div>
+
+      <div class="about__side reveal" data-delay="160">
+        <h3 class="about__h">My Approach</h3>
+        <p>
+          Saya mengutamakan struktur yang jelas, visual yang tenang, dan detail yang rapi.
+          Setiap proyek saya mulai dari <strong>design brief</strong>, lalu mengeksekusinya
+          sampai siap dipakai — entah itu poster, ID card, atau halaman web.
+        </p>
+        <p>
+          Selain mendesain, saya terbiasa menata administrasi dan alur kerja organisasi:
+          menyusun surat kepanitiaan, notulensi, sampai dokumentasi kegiatan.
+        </p>
+
+        <ul class="pills">
+          <li>Sertifikat Kemnaker RI</li>
+          <li>Desainer Grafis Madya</li>
+          <li>260 JP</li>
+        </ul>
+
+        <a href="#contact" class="link-arrow">Let's work together
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ EXPERIENCE ═══════════ -->
+<section class="section section--tint" id="experience">
+  <div class="shell">
+    <header class="sec-head">
+      <span class="sec-label reveal">Career Path</span>
+      <h2 class="sec-title reveal" data-delay="60">Work Experience</h2>
+    </header>
+
+    <div class="exp">
+      <aside class="exp__aside reveal">
+        <p class="exp__note">
+          Perjalanan saya berjalan di dua arah sekaligus: membangun visual dan membangun
+          sistem — di himpunan, di kepanitiaan, dan di ruang pelatihan.
+        </p>
+        <a href="assets/cv/CV-Akmal-Sukma-Wardani.pdf" class="btn btn--line btn--sm" target="_blank" rel="noopener">
+          Lihat CV lengkap
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </a>
+      </aside>
+
+      <ol class="exp__list">
+        <li class="exp__item reveal">
+          <span class="exp__year">2025 — Sekarang</span>
+          <h3 class="exp__role">Sekretaris</h3>
+          <span class="exp__org">HIMSI Universitas Alma Ata · Bantul, DIY</span>
+          <p class="exp__desc">
+            Mengelola seluruh sistem administrasi himpunan: menyusun surat kepanitiaan,
+            mendokumentasikan operasional kegiatan, serta menjaga alur komunikasi antar divisi.
+            Menyusun lembar evaluasi dan risalah rapat agar program kerja berjalan efektif.
+          </p>
+          <div class="tags">
+            <span>Administrasi</span><span>Notulensi</span><span>Koordinasi Tim</span><span>Arsip Digital</span>
+          </div>
+        </li>
+
+        <li class="exp__item reveal" data-delay="80">
+          <span class="exp__year">2024 — Sekarang</span>
+          <h3 class="exp__role">Graphic Designer</h3>
+          <span class="exp__org">Proyek &amp; kepanitiaan · HIMSI UAA</span>
+          <p class="exp__desc">
+            Merancang identitas visual kabinet, sistem ID card untuk lima divisi, kalender
+            kegiatan, hingga materi promosi. Bekerja dari brief, menyusun konsep, lalu
+            mengeksekusi aset cetak dan digital yang konsisten.
+          </p>
+          <div class="tags">
+            <span>Figma</span><span>Canva</span><span>PixelLab</span><span>Branding</span>
+          </div>
+        </li>
+
+        <li class="exp__item reveal" data-delay="160">
+          <span class="exp__year">Juni 2024 · Jakarta</span>
+          <h3 class="exp__role">Pelatihan Desainer Grafis Madya</h3>
+          <span class="exp__org">Kementerian Ketenagakerjaan RI · 260 JP</span>
+          <p class="exp__desc">
+            Lulus program pelatihan berbasis kompetensi atas 10 unit: operasional perangkat
+            lunak desain, penciptaan karya desain, penetapan konsep &amp; strategi desain,
+            penerapan design brief, sampai prinsip dasar komunikasi visual.
+          </p>
+          <div class="tags">
+            <span>Kemnaker RI</span><span>260 JP</span><span>Design Brief</span><span>Komunikasi Visual</span>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ TECH STACK ═══════════ -->
+<section class="section" id="skills">
+  <div class="shell">
+    <header class="sec-head">
+      <span class="sec-label reveal">Skills &amp; Tools</span>
+      <h2 class="sec-title reveal" data-delay="60">My Tech Stack</h2>
+    </header>
+
+    <div class="stack">
+      <div class="stack__row reveal">
+        <div class="stack__head">
+          <h3>Frontend &amp; Markup</h3>
+          <p>The tools I use to build clean, responsive, and readable interfaces.</p>
+        </div>
+        <ul class="chips">
+          <li><i>H5</i>HTML5</li>
+          <li><i>C3</i>CSS3</li>
+          <li><i>JS</i>JavaScript</li>
+          <li><i>TW</i>Tailwind CSS</li>
+          <li><i>FL</i>Flutter (Dart)</li>
+        </ul>
+      </div>
+
+      <div class="stack__row reveal" data-delay="60">
+        <div class="stack__head">
+          <h3>Design &amp; Visual</h3>
+          <p>From design brief to visual identity and print-ready assets.</p>
+        </div>
+        <ul class="chips">
+          <li><i>FG</i>Figma</li>
+          <li><i>CV</i>Canva</li>
+          <li><i>PX</i>PixelLab</li>
+          <li><i>GD</i>Graphic Design</li>
+          <li><i>DB</i>Design Brief</li>
+        </ul>
+      </div>
+
+      <div class="stack__row reveal" data-delay="120">
+        <div class="stack__head">
+          <h3>Tools &amp; Workflow</h3>
+          <p>What I open every day to build, version, and document the work.</p>
+        </div>
+        <ul class="chips">
+          <li><i>GT</i>Git &amp; GitHub</li>
+          <li><i>VS</i>VS Code</li>
+          <li><i>MO</i>Microsoft Office</li>
+        </ul>
+      </div>
+
+      <div class="stack__row reveal" data-delay="180">
+        <div class="stack__head">
+          <h3>Organisasi &amp; Manajemen</h3>
+          <p>Kemampuan non-teknis yang tumbuh dari kepanitiaan dan himpunan.</p>
+        </div>
+        <ul class="chips">
+          <li><i>EM</i>Event Management</li>
+          <li><i>TC</i>Team Coordination</li>
+          <li><i>DA</i>Document Archiving</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ PROJECTS ═══════════ -->
+<section class="section section--tint" id="works">
+  <div class="shell">
+    <header class="sec-head">
+      <span class="sec-label reveal">Portfolio</span>
+      <h2 class="sec-title reveal" data-delay="60">Selected Works</h2>
+    </header>
+
+    <div class="works" id="worksGrid">
+      <article class="work reveal">
+        <button class="work__thumb" type="button" data-project aria-label="Lihat detail Website HIMSI Arka Nika">
+          <img src="assets/img/proj-himsi-web.png" alt="Website HIMSI Kabinet Arka Nika" width="1200" height="900" loading="lazy" decoding="async" />
+          <span class="work__badge">Front-End</span>
+        </button>
+        <div class="work__body">
+          <span class="work__meta">Front-End · 2026</span>
+          <h3 class="work__title">Website HIMSI — Kabinet Arka Nika</h3>
+          <p class="work__desc">
+            Landing page responsif untuk himpunan mahasiswa Sistem Informasi: profil lima
+            divisi, program kerja, galeri, dan formulir pendaftaran.
+          </p>
+          <ul class="work__features" hidden>
+            <li>Layout responsif mobile-first</li>
+            <li>Section profil 5 divisi</li>
+            <li>Formulir pendaftaran &amp; galeri kegiatan</li>
+          </ul>
+          <div class="work__tech"><span>HTML5</span><span>Tailwind CSS</span><span>Responsive</span></div>
+          <button class="link-arrow work__more" type="button" data-project>
+            View details
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </button>
+        </div>
+      </article>
+
+      <article class="work reveal" data-delay="60">
+        <button class="work__thumb" type="button" data-project aria-label="Lihat detail Identity Design & ID Card System">
+          <img src="assets/img/proj-idcard.png" alt="Identity design dan ID card HIMSI" width="1200" height="900" loading="lazy" decoding="async" />
+          <span class="work__badge">Graphic Design</span>
+        </button>
+        <div class="work__body">
+          <span class="work__meta">Graphic Design · 2026</span>
+          <h3 class="work__title">Identity Design &amp; ID Card System</h3>
+          <p class="work__desc">
+            Sistem kartu identitas untuk lima divisi HIMSI — EBE, MEDINFO, ORDEV, RESTECH,
+            dan SOREL — lengkap dengan template dokumen resmi.
+          </p>
+          <ul class="work__features" hidden>
+            <li>5 divisi dengan identitas konsisten</li>
+            <li>Template cetak &amp; dokumen kepanitiaan</li>
+            <li>Aset digital siap publikasi</li>
+          </ul>
+          <div class="work__tech"><span>Canva</span><span>PixelLab</span><span>Layout</span></div>
+          <button class="link-arrow work__more" type="button" data-project>
+            View details
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </button>
+        </div>
+      </article>
+
+      <article class="work reveal" data-delay="120">
+        <button class="work__thumb" type="button" data-project aria-label="Lihat detail Logo & Visual Identity Kabinet">
+          <img src="assets/img/proj-logo.png" alt="Logo dan visual identity kabinet" width="1200" height="900" loading="lazy" decoding="async" />
+          <span class="work__badge">Branding</span>
+        </button>
+        <div class="work__body">
+          <span class="work__meta">Branding · 2025</span>
+          <h3 class="work__title">Logo &amp; Visual Identity Kabinet</h3>
+          <p class="work__desc">
+            Perancangan logo resmi HIMSI beserta logo kabinet Arka Nika, lalu penerapannya
+            ke merchandise, stiker, dan materi kegiatan.
+          </p>
+          <ul class="work__features" hidden>
+            <li>Logo utama &amp; logo kabinet</li>
+            <li>Aplikasi ke merchandise &amp; stiker</li>
+            <li>Panduan warna &amp; elemen visual</li>
+          </ul>
+          <div class="work__tech"><span>Logo Design</span><span>Branding</span><span>Merchandise</span></div>
+          <button class="link-arrow work__more" type="button" data-project>
+            View details
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </button>
+        </div>
+      </article>
+
+      <article class="work reveal">
+        <button class="work__thumb" type="button" data-project aria-label="Lihat detail Kalender & Materi Promosi">
+          <img src="assets/img/proj-kalender.png" alt="Kalender dan materi promosi HIMSI" width="1200" height="900" loading="lazy" decoding="async" />
+          <span class="work__badge">Graphic Design</span>
+        </button>
+        <div class="work__body">
+          <span class="work__meta">Graphic Design · 2025</span>
+          <h3 class="work__title">Kalender &amp; Materi Promosi</h3>
+          <p class="work__desc">
+            Kalender kegiatan tahunan dan rangkaian materi promosi: poster, banner, serta
+            konten media sosial untuk program kerja himpunan.
+          </p>
+          <ul class="work__features" hidden>
+            <li>Kalender kegiatan tahunan</li>
+            <li>Poster, banner &amp; media sosial</li>
+            <li>Visual hierarchy &amp; keterbacaan</li>
+          </ul>
+          <div class="work__tech"><span>Canva</span><span>Poster</span><span>Social Media</span></div>
+          <button class="link-arrow work__more" type="button" data-project>
+            View details
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </button>
+        </div>
+      </article>
+
+      <article class="work reveal" data-delay="60">
+        <button class="work__thumb" type="button" data-project aria-label="Lihat detail Modul Pembayaran QRIS">
+          <img src="assets/img/proj-qris.png" alt="Modul pembayaran QRIS" width="1200" height="900" loading="lazy" decoding="async" />
+          <span class="work__badge">Front-End</span>
+        </button>
+        <div class="work__body">
+          <span class="work__meta">Front-End · Ops · 2026</span>
+          <h3 class="work__title">Modul Pembayaran QRIS</h3>
+          <p class="work__desc">
+            Modul pembayaran iuran kegiatan berbasis QRIS untuk pendaftaran peserta.
+            Menggantikan transaksi tunai agar pencatatan lebih cepat dan akurat.
+          </p>
+          <ul class="work__features" hidden>
+            <li>Alur registrasi &amp; generate QR</li>
+            <li>Rekap otomatis per kegiatan</li>
+            <li>Pelaporan keuangan sederhana</li>
+          </ul>
+          <div class="work__tech"><span>QRIS</span><span>Registration</span><span>Reporting</span></div>
+          <button class="link-arrow work__more" type="button" data-project>
+            View details
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </button>
+        </div>
+      </article>
+
+      <article class="work reveal" data-delay="120">
+        <button class="work__thumb" type="button" data-project aria-label="Lihat detail Sekretariat & Dokumentasi Kegiatan">
+          <img src="assets/img/proj-merch.png" alt="Sekretariat dan dokumentasi kegiatan" width="1200" height="900" loading="lazy" decoding="async" />
+          <span class="work__badge">Operations</span>
+        </button>
+        <div class="work__body">
+          <span class="work__meta">Operations · 2025 — 2026</span>
+          <h3 class="work__title">Sekretariat &amp; Dokumentasi Kegiatan</h3>
+          <p class="work__desc">
+            Administrasi dan dokumentasi sebagai arah kerja: menyusun proposal, surat
+            kepanitiaan, notulensi rapat, hingga laporan kegiatan.
+          </p>
+          <ul class="work__features" hidden>
+            <li>Surat kepanitiaan &amp; proposal kegiatan</li>
+            <li>Notulensi rapat &amp; lembar evaluasi</li>
+            <li>Dokumentasi operasional kegiatan</li>
+          </ul>
+          <div class="work__tech"><span>Notulensi</span><span>Surat</span><span>Arsip</span></div>
+          <button class="link-arrow work__more" type="button" data-project>
+            View details
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ CONTACT ═══════════ -->
+<section class="section" id="contact">
+  <div class="shell">
+    <header class="sec-head">
+      <span class="sec-label reveal">Get in Touch</span>
+      <h2 class="sec-title reveal" data-delay="60">Contact Me</h2>
+    </header>
+
+    <div class="contact">
+      <div class="contact__form-wrap reveal">
+        <h3 class="contact__h">Send an Email directly.</h3>
+        <p class="contact__sub">Ceritakan kebutuhan Anda — saya biasanya membalas dalam 1×24 jam.</p>
+
+        <form class="form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Nama lengkap" autocomplete="name" required />
+            <span class="field__err">Mohon isi nama Anda.</span>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="nama@email.com" autocomplete="email" required />
+            <span class="field__err">Format email belum tepat.</span>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tulis pesan Anda…" required></textarea>
+            <span class="field__err">Pesan minimal 10 karakter.</span>
+          </div>
+          <button type="submit" class="btn btn--dark btn--block" id="submitBtn">
+            <span class="btn__label">Send Message</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+            <span class="btn__spin" aria-hidden="true"></span>
+          </button>
+        </form>
+      </div>
+
+      <aside class="contact__side reveal" data-delay="100">
+        <ul class="contact__list">
+          <li>
+            <span class="contact__k">Email</span>
+            <a href="mailto:sukmawardaniakmal@gmail.com">sukmawardaniakmal@gmail.com</a>
+          </li>
+          <li>
+            <span class="contact__k">WhatsApp</span>
+            <a href="https://wa.me/6282285718916" target="_blank" rel="noopener">+62 822-8571-8916</a>
+          </li>
+          <li>
+            <span class="contact__k">Instagram</span>
+            <a href="https://www.instagram.com/akmal.skw" target="_blank" rel="noopener">@akmal.skw</a>
+          </li>
+          <li>
+            <span class="contact__k">Location</span>
+            <span>Bantul, Yogyakarta, Indonesia</span>
+          </li>
+        </ul>
+
+        <div class="contact__card">
+          <span class="dot"></span>
+          <p><strong>Open for internship</strong><br />dan kolaborasi desain atau web.</p>
+        </div>
+
+        <a href="assets/cv/CV-Akmal-Sukma-Wardani.pdf" class="link-arrow" target="_blank" rel="noopener">
+          Download CV
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M5 19h14"/></svg>
+        </a>
+      </aside>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer class="footer">
+  <div class="shell footer__inner">
+    <div class="footer__brand">
+      <a class="brand" href="#home">Akmal<span>.</span></a>
+      <p>Sistem Informasi · UI/UX · Front-End · Graphic Design</p>
+    </div>
+
+    <nav class="footer__nav" aria-label="Navigasi footer">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#works">Projects</a>
+      <a href="#contact">Contacts</a>
+    </nav>
+
+    <div class="footer__soc">
+      <a href="https://www.instagram.com/akmal.skw" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/6282285718916" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="mailto:sukmawardaniakmal@gmail.com">Email</a>
+    </div>
+  </div>
+  <div class="shell footer__bottom">
+    <span>© <span id="year">2026</span> Moh. Akmal Sukma Wardani</span>
+    <span>Dibangun dengan HTML, CSS &amp; JavaScript murni.</span>
+  </div>
+</footer>
+
+<!-- ═══════════ PROJECT MODAL ═══════════ -->
+<div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+  <div class="modal__backdrop" data-close></div>
+  <div class="modal__panel">
+    <button class="modal__x" type="button" data-close aria-label="Tutup">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <div class="modal__media"><img id="modalImg" alt="" /></div>
+    <div class="modal__body">
+      <span class="work__meta" id="modalMeta"></span>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDesc"></p>
+      <ul class="modal__list" id="modalList"></ul>
+      <div class="tags" id="modalTech"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════ ASSISTANT ═══════════ -->
+<div class="assistant" id="assistant">
+  <div class="assistant__panel" id="assistantPanel" hidden>
+    <header class="assistant__head">
+      <span class="assistant__ava">A</span>
+      <div class="assistant__id">
+        <b>Akmal Assistant</b>
+        <span><i class="dot dot--live"></i>Online</span>
+      </div>
+      <button class="assistant__x" id="assistantClose" aria-label="Tutup asisten">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </header>
+
+    <div class="assistant__body" id="chatBody" aria-live="polite">
+      <div class="msg msg--bot">
+        <p>Halo! Saya asisten AI Akmal. Ada yang bisa saya bantu soal portofolio, pengalaman, atau project-nya?</p>
+        <time>now</time>
+      </div>
+      <div class="assistant__quick" id="chatQuick">
+        <button type="button" data-q="project">Project apa saja?</button>
+        <button type="button" data-q="skill">Skill &amp; tools</button>
+        <button type="button" data-q="contact">Kontak</button>
+      </div>
+    </div>
+
+    <form class="assistant__form" id="chatForm">
+      <input type="text" id="chatInput" placeholder="Ask me anything…" autocomplete="off" aria-label="Tulis pesan untuk asisten" />
+      <button type="submit" aria-label="Kirim">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+      </button>
+    </form>
+  </div>
+
+  <button class="assistant__fab" id="assistantFab" aria-label="Buka asisten AI" aria-expanded="false">
+    <span class="assistant__fab-txt">AI</span>
+    <span class="assistant__pulse" aria-hidden="true"></span>
+  </button>
+</div>
+
+<button class="to-top" id="toTop" aria-label="Kembali ke atas">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<div class="toast" id="toast" role="status">
+  <span class="toast__i">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 13 4 4L19 7"/></svg>
+  </span>
+  <div class="toast__b"><b>Pesan siap dikirim</b><span>Klien email Anda akan terbuka sebentar lagi.</span></div>
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
